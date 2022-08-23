@@ -1,0 +1,31 @@
+Vehicles
+lane size
+number of passengers per row
+saftey rules regaurding room per person
+cost of gas vs utlitiy
+current trend, target audience
+lengh of life, repairablity
+
+
+
+
+Clothes: shirts
+cost of competition's products
+designing with array of sizes
+store placement by section. have to fit in certain mold to be a "shirt"
+material, cost, and durability
+reproducablity in other colors
+
+
+restraunt meals:
+fits  expetations of an "entree"
+viablity of chefs producing it along side other entrees.
+prep requirments
+if it stays hot all the way to the table
+shelf life of ingrediants
+similar ingrediants with other products
+flavor profile for region
+
+
+
+
