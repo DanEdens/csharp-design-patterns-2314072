@@ -18,6 +18,14 @@ class MonthWithDays {
 
     class DaysInMonthEnumerator : IEnumerable<MonthWithDays>
     {
+        private int year = 5;
+        private int month = 0;
+        
+        public MonthWithDays Current => new MonthWithDays() {
+            Date = $"{year.ToString().PadLeft(4, '0')}-{month}",
+            Days = DateTime.DaysInMonth(year, month)
+        };
+        
         public IEnumerator<MonthWithDays> GetEnumerator()
         {
             throw new NotImplementedException();
