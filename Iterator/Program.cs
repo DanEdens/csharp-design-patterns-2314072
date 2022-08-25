@@ -26,6 +26,8 @@ class MonthWithDays {
             Days = DateTime.DaysInMonth(year, month)
         };
         
+        object IEnumerable
+        
         public IEnumerator<MonthWithDays> GetEnumerator()
         {
             throw new NotImplementedException();
