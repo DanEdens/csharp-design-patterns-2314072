@@ -30,8 +30,10 @@ namespace HPlusSports.Web.Controllers
         {
             var vm = new OrderListViewModel();
             var orders = await _orderService.GetOrdersWithCustomers();
-            foreach (var o in orders){
-                if (o.Status == "cancelled") orders.Remove(o);
+            // foreach (var o in orders){
+            //     if (o.Status == "cancelled") orders.Remove(o);
+            var enumerator = orders.GetEnumerator();
+            enumerator.MoveNext();
             vm.Orders = orders;
             return View(vm);
         }
