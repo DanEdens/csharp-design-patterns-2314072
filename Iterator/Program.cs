@@ -11,4 +11,21 @@ namespace Iterator
             Console.WriteLine("Hello World");
         }
     }    
+class MonthWithDays {
+    public string Date {get;set;}
+    public int Days {get;set;}
+}
+
+    class DaysInMonthEnumerator : IEnumerable<MonthWithDays>
+    {
+        public IEnumerator<MonthWithDays> GetEnumerator()
+        {
+            throw new NotImplementedException();
+        }
+
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            throw new NotImplementedException();
+        }
+    }
 }
